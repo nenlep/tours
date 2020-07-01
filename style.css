@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 16px;
+  color: #464646;
+}
+
+a {
+  font-size: 16px;
+  color: #EBC154;
+}
+a .link{
+  font-size: 6px;
+}
+a:hover {
+  font-size: 16px;
+  color: #EBC154;
+}
+
+.section-padding {
+  padding-top: 80px;
+}
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+#tours-section {
+  position: relative;
+}
+
+#tours-section .tour-overlay {
+  background-image: url(./img/matthias-mullie-u2-97eBhFEc-unsplash1\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+  #tours-section .tour-caption {
+    padding: 90px 50px 50px 90px ;
+    color:#fff;
+    text-align:center;
+    margin: auto;
+    }
+#tours-section h1 .bold-heading {
+  font-size: 100px;
+}
+
+/* #destination h2::after,  #tour-guide h2::after {
+  content: '';
+  background-color: #EBC154;
+  width: 150px;
+  height: 10px;
+  display: block;
+  margin-top: 7px;
+  align-items: center;
+} */
+.btn {
+  background-color: #EBC154!important;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+
+@media all and (max-width: 560px) {
+  h2 {
+      font-size: 24px;
+  }
+
+  h3 {
+      font-size: 18px;
+  }
+
+  p, a {
+      font-size: 14px;
+  }
+  .btn{
+    padding:  10px 30px;
+  }
+}
+@media all and (max-width: 768px){
+  .cards{
+    margin-right: 120px;
+  }
+  .cards .Paris{
+    margin-right: 20px
+  }
+}
